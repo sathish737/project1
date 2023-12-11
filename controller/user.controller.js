@@ -6,7 +6,7 @@ let createduser = await user.create({
     name:req.body.name,
     phone:req.body.phone,
     email:req.body.email,
-    date:req.bode.date,
+    date:req.body.date,
 })
 return res.json({
     success:true,
